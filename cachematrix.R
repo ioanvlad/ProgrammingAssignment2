@@ -3,6 +3,7 @@
 ## Initiates a matrix "object"
 
 makeCacheMatrix <- function(x = matrix()) {
+  ## Return a list of functions, also saving the environment
   inv <- NULL
   set <- function(y) {
     x <<- y
